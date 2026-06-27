@@ -1,3 +1,6 @@
+
+// Type exports for consumers
+// Add specific types as needed
 export function parseBytes(str: string): number {
   const match = str.match(/^(\d+(?:\.\d+)?)\s*(B|KB|MB|GB|TB|PB)$/i);
   if (!match) throw new Error("Invalid format. Use: 100B, 1.5KB, 10MB, 2GB");
