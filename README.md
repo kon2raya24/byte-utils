@@ -19,3 +19,11 @@ npm install byte-utils
 ## License
 
 MIT
+
+
+## Usage
+
+```typescript
+import { } from 'byte-utils';
+// See API section for available functions
+```
